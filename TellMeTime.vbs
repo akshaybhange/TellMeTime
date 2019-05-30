@@ -1,7 +1,5 @@
 Dim speaks, speech, hour
 
-hour = Abs(hour(time)-12)
-
 If hour(time) <= 12 Then
 	If minute(time) = 30 Then
 		speaks = "It's half past" & hour(time) 
